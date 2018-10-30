@@ -1,0 +1,23 @@
+image:http://img.shields.io/badge/license-MIT-blue.svg["MIT", link="http://toedter.mit-license.org"]
+
+Work in progress, stay tuned.
+
+= Alexa Conference Info
+
+This is a simple Alexa Skill for conference info.
+
+== Planned features
+
+* Gives information about conferences like
+** name
+** location
+** start date
+** end date
+* Written in TypeScript
+* Internationalized in English and German
+* Local tests
+* Travis-CI integration
+
+== License
+
+MIT, see http://toedter.mit-license.org

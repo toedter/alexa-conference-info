@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "conference info",
+      "types": [
+        {
+          "name": "LIST_OF_CONFERENCES",
+          "values": [
+            {"name":{"value":"JAX"}},
+            {"name":{"value":"OOP"}}
+          ]
+        }
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "ConferenceIntent",
+          "slots": [
+            {
+              "name": "Name",
+              "type": "LIST_OF_CONFERENCES"
+            }
+          ],
+          "samples": [
+            "when is the {Name}",
+            "when is the {Name} conference",
+            "when is {Name}",
+            "when is {Name} conference"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "alexa-conference-info",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc && copyfiles lambda/custom/package.json dist",
+    "lint": "tslint --project tsconfig.json lambda/**/*.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.0",
+    "@types/node": "^10.0.7",
+    "copyfiles": "^2.1.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.1.1"
+  }
+}

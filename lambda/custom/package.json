@@ -1,0 +1,13 @@
+{
+  "name": "alexa-conference-info",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project tsconfig.json lambda/**/*.ts"
+  },
+  "private": true,
+  "dependencies": {
+    "ask-sdk-core": "^2.0.0",
+    "ask-sdk-model": "^1.0.0"
+  }
+}
